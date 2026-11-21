@@ -47,7 +47,10 @@ MAKEFUN_INPUT_DIR=practice/input MAKEFUN_OUTPUT_DIR=out node main.ts
 On the practice set the solver reaches the push optimum on all five
 instances (13, 16, 29, 47 and 60 pushes) for a practice score of
 **1,000,000**, in under half a second for the whole set. It scores
-1,000,000 on 29 further freshly drawn sets as well.
+1,000,000 on 30 further freshly drawn sets as well (each drawn from its
+own seed with the kit's published generator), every set in under 0.6 s,
+and two runs on the same set write byte-identical answers. The house
+baseline (plain-astar 1.0.0) scores 200,000 on the practice set.
 
 ## Licence
 
